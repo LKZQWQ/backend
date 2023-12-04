@@ -4,6 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * 传给前端的返回结果实体类
+ *
+ * @author 赵俊宇
+ * @date 2023/12/05
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

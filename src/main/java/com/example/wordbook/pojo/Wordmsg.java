@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * 单词类
+ * 完整的wordmsg信息类
  * 包含了这个单词相关的所有属性
- * @author ran
+ * @author 赵俊宇
  */
 @Data
 @AllArgsConstructor

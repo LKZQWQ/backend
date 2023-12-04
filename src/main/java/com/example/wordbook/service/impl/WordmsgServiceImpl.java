@@ -9,6 +9,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * Wordmsg服务业务逻辑处理的实用类
+ *
+ * @author 赵俊宇
+ * @date 2023/12/05
+ */
 @Service
 public class WordmsgServiceImpl implements WordmsgService {
 
