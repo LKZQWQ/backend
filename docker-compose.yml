@@ -1,0 +1,18 @@
+version: 3
+
+services:
+  word-book:
+    image: LKZQWQ:word_book-backend
+    container_name: word_book-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: word_book
+    volumes:
+      - word_book-database:/var/lib/mysql
